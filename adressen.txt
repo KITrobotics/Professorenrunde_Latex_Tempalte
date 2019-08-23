@@ -1,0 +1,42 @@
+Name	Anrede	Titel	Vorname	Institut	Lehrstuhl	Gebäude	PLZ / Straße	Ort
+Abeck	Herrn Professor	Dr.rer.nat.	Sebastian	Institut für Telematik	Forschungsgruppe Cooperation & Management 	Geb. 20.20		– Hauspost –
+Asfour	Herrn Professor	Dr.-Ing.	Tamim	Institut für Anthropomatik und Robotik	Hochperformante Humanoide Technologien (H²T)	Geb. 50.20		– Hauspost –
+Bäcker	Herrn Professor	Dr. iur. LL.M.	Matthias	Institut für Informations- und Wirtschaftsrecht	Zentrum für Angewandte Rechtswissenschaft	Geb. 07.08	Vincenz-Prießnitz-Str. 3	– Hauspost –
+Beckert	Herrn Professor	Dr.rer.nat.	Bernhard	Institut für Theoretische Informatik 	Anwendungsorientierte Formale Verifikation	Geb. 50.34		– Hauspost –
+Beigl	Herrn Professor	Dr.	Michael	Institut für Telematik	Lehrstuhl für Pervasive Computing Systems	Geb.07.07	Vincenz-Prießnitz-Str. 1	– Hauspost –
+Bellosa	Herrn Professor	Dr.-Ing.	Frank	Institut für Technische Informatik	Lehrstuhl Systemarchitektur	Geb. 50.34		– Hauspost –
+Beyerer	Herrn Professor	Dr.-Ing.	Jürgen	Institut für Anthropomatik und Robotik	Lehrstuhl für Interaktive Echtzeitsysteme	Geb. 50.21		– Hauspost –
+Bless	Herrn PD	Dr.-Ing.	Roland	Institut für Telematik	Lehrstuhl Prof. Zitterbart	Geb. 20.20		– Hauspost –
+Böhm	Herrn Professor	Dr.-Ing.	Klemens	Institut für Programmstrukturen und Datenorganisation 	Lehrstuhl für Systeme der Informationsverwaltung	Geb. 50.34		– Hauspost –
+Dachsbacher	Herrn Professor	Dr.-Ing.	Carsten	Institut für Visualisierung und Datenanalyse	Lehrstuhl für Computergraphik	Geb. 50.34		– Hauspost –
+Dillmann	Herrn Professor	Dr.-Ing.	Rüdiger	Institut für Anthropomatik und Robotik	Humanoids and Intelligence Systems Laboratories	Geb. 50.20		– Hauspost –
+Dreier M.C.J.	Herrn Professor	Dr. iur.	Thomas	Institut für Informations- und Wirtschaftsrecht	Zentrum für Angewandte Rechtswissenschaft	Geb. 07.08	Vincenz-Prießnitz-Str. 3	– Hauspost –
+Hagenmeyer	Herrn Professor	Dr.	Veit	Steinbuch Centre for Computing 		Geb. 449 R. 334	Campus Nord	– Hauspost –
+Hanebeck	Herrn Professor	Dr.-Ing.	Uwe D. 	Institut für Anthropomatik und Robotik	Lehrstuhl für Intelligente Sensor-Aktor-Systeme (ISAS)	Geb. 50.20		– Hauspost –
+Hartenstein	Herrn Professor	Dr.rer.nat.	Hannes	Institut für Telematik	Forschungsbereich DSN	Geb. 20.21	Zirkel 2	– Hauspost –
+Hein	Herrn Professor	Dr.-Ing. habil. 	Björn	Institut für Anthropomatik und Robotik	Intelligente Prozessautomation und Robotik (IPR)	Geb. 40.28		– Hauspost –
+Henkel	Herrn Professor	Dr.-Ing. 	Jörg	Institut für Technische Informatik	Chair for Embedded Systems	Geb. 07.21	Technologiefabrik	– Hauspost –
+Hofheinz	Herrn Juniorprofessor	Dr. 	Dennis	Institut für Theoretische Informatik	Kryptographie und Sicherheit	Geb. 50.34		– Hauspost –
+Huber	Herrn PD	Dr.-Ing.	Marco	Institut für Anthropomatik und Robotik	Lehrstuhl für Interaktive Echtzeitsysteme	Geb. 50.21		– Hauspost –
+Karl	Herrn Professor	Dr.rer.nat.	Wolfgang	Institut für Technische Informatik	Lehrstuhl für Rechnerarchitektur und Parallelverarbeitung	Geb. 07.21	Technologiefabrik	– Hauspost –
+Koziolek	Frau Juniorprofessorin 	Dr.-Ing.	Anne	Institut für Programmstrukturen und Datenorganisation 	Architekturgetriebene Anforderungstechnik	Geb. 50.34		– Hauspost –
+Längle	Herrn apl. Prof.	Dr.-Ing. 	Thomas	Fraunhofer-Institut für Optronik, Systemtechnik und Bildauswertung	Abteilungsleiter Sichtprüfsysteme		Fraunhoferstr. 1	76131 Karlsruhe
+Meyerhenke	Herrn Juniorprofessor	Dr. 	Henning	Institut für Theoretische Informatik 	Forschungsgruppe Paralleles Rechnen	Geb. 50.34		– Hauspost –
+Müller-Quade	Herrn Professor	Dr.rer.nat.	Jörn	Institut für Theoretische Informatik	Kryptographie und Sicherheit	Geb. 50.34		– Hauspost –
+Neubert	Herrn Juniorprofessor	Dr.-Ing. 	Boris	Institut für Visualisierung und Datenanalyse	Lehrstuhl für Computergraphik	Geb. 50.34		– Hauspost –
+Neumair	Herrn Professor	Dr. 	Bernhard	Steinbuch Centre for Computing 	Campus Nord	Geb. 449 R. 324		– Hauspost –
+Prautzsch	Herrn Professor	Dr.rer.nat.	Hartmut	Institut für Visualisierung und Datenanalyse	Angewandte Geometrie & Computergraphik	Geb. 50.34		– Hauspost –
+Reussner	Herrn Professor	Dr.rer.nat.	Ralf H. 	Institut für Programmstrukturen und Datenorganisation 	Software Design and Quality	Geb. 50.34		– Hauspost –
+Sanders	Herrn Professor	Dr.rer.nat.	Peter	Institut für Theoretische Informatik 	Lehrstuhl Algorithmik II	Geb. 50.34		– Hauspost –
+Snelting	Herrn Professor	Dr.-Ing.	Gregor	Institut für Programmstrukturen und Datenorganisation 	Lehrstuhl Programmierparadigmen	Geb. 50.34		– Hauspost –
+Stamatakis	Herrn Professor	Dr.	Alexandros	Heidelberg Institut für Theoretische Studien	HITS gGmbH		Schloss-Wolfsbrunnenweg 35	69118 Heidelberg
+Stiefelhagen	Herrn Professor	Dr.-Ing.	Rainer	Institut für Anthropomatik und Robotik	Computer Vision for Human-Computer Interaction Lab (cv:hci)	Geb. 07.08	Vincenz-Prießnitz-Str. 3	– Hauspost –
+Streit	Herrn Professor	Dr.rer.nat. 	Achim	Steinbuch Centre for Computing 	Campus Nord	Geb. 449 R. 322		– Hauspost –
+Tahoori	Herrn Professor	Dr. 	Mehdi B. 	Institut für Technische Informatik	Chair for Dependable Nano Computing	Geb. 07.21	Technologiefabrik	– Hauspost –
+Tichy	Herrn Professor	Dr.rer.nat.	Walter F. 	Institut für Programmstrukturen und Datenorganisation 	Lehrstuhl für Programmiersysteme	Geb. 50.34		– Hauspost –
+Wagner	Frau Professorin	Dr.rer.nat.	Dorothea	Institut für Theoretische Informatik 	Lehrstuhl Algorithmik I	Geb. 50.34		– Hauspost –
+Waibel	Herrn Professor	Dr.rer.nat.	Alex	Institut für Anthropomatik und Robotik	interACT	Geb. 50.20		– Hauspost –
+Waldhorst	Herrn PD	Dr.	Oliver P.	Institut für Telematik	Lehrstuhl Prof. Zitterbart	Geb. 20.20	Zirkel 2	– Hauspost –
+Wörn	Herrn Professor	Dr.-Ing.	Heinz	Institut für Anthropomatik und Robotik	Intelligente Prozessautomation und Robotik (IPR)	Geb. 40.28		– Hauspost –
+Zitterbart	Frau Professorin	Dr.rer.nat.	Martina	Institut für Telematik		Geb. 20.20	Zirkel 2	– Hauspost –
+Zöllner	Herrn Professor	Dr.-Ing.	J. Marius	Forschungszentrum Informatik			Haid-und-Neu-Str. 5A	76131 Karlsruhe

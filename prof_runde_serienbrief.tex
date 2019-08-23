@@ -1,0 +1,226 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman}
+
+\usepackage{enumerate}
+\usepackage[inline]{enumitem}
+
+\usepackage[numbers]{natbib}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=25mm,
+ right=25mm,
+ top=25mm,
+ bottom=25mm,
+ }
+
+\usepackage{soul}
+\usepackage[absolute]{textpos}
+\usepackage{wasysym}
+\usepackage{tikz}
+
+\usepackage{float}
+\usepackage[font={footnotesize}]{subcaption}
+\usepackage{wrapfig}
+\usepackage[font={footnotesize}]{caption}
+\renewcommand{\figurename}{Fig.}
+
+\usepackage{tabularx}
+
+%% To use with only one figure with subfigures
+% \renewcommand{\thefigure}{}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlength{\parindent}{0cm}
+
+\newlength{\lr}
+\setlength{\lr}{2.41cm} % linker Rand
+
+\newlength{\w}
+\setlength{\w}{21cm}
+\addtolength{\w}{-2\lr}
+
+\setul{1pt}{.4pt} % Unterstreichung nich so hässlich
+
+\newcommand{\afterReview}[1]{{\color{magenta}#1}}
+\newcommand{\afterReviewFig}[1]{\colorbox{magenta}{#1}}
+
+%%%%%% Document Data %%%%%%%%%%%%%%
+\include{zusammenfassung_der_arbeit}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\anschreiben}[3]{
+\pagestyle{empty}
+
+\begin{tikzpicture}[remember picture,overlay]
+\node at (current page.north west){
+ \begin{tikzpicture}[remember picture, overlay]
+ \end{tikzpicture}};
+\end{tikzpicture}
+
+\begin{textblock*}{7.59cm}(\lr,5.4cm) % Empfänger
+\underline{\ \ \footnotesize \myname\ $\cdot$\ \myinstituteshort\ $\cdot$\ \mybuilding \ \ }\\
+\\
+#1\\
+% #3
+\end{textblock*}
+
+\begin{textblock*}{3cm}(5mm,105mm)$\overline{\phantom{awa}}$\end{textblock*}
+\begin{textblock*}{3cm}(5mm,210mm)$\overline{\phantom{awa}}$\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,7.6cm) % Ort, Datum
+\begin{flushright}
+Karlsruhe, \today
+\end{flushright}
+\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,9.74cm) % Text
+\textbf{Vorstellung meines Promotionsthemas im Rahmen des Promotionsgesprächs \\(ehemals Professorenrunde)}
+\newline\newline\newline
+#2,\newline
+
+im \mysemester \ beabsichtige ich, meine Promotionsprüfung an der KIT-Fakultät für Informatik des Karlsruher Instituts für Technologie abzulegen. Meine Arbeit wird federführend von Prof. \mysupervisior \ betreut und trägt voraussichtlich den Titel\newline
+
+\textbf{``\mytitleEN''\\ (``\mytitleDE'')}.\newline
+
+Ich möchte mich gern bei Ihnen vorstellen und Ihnen das Thema meiner Arbeit erläutern. Eine kurze Zusammenfassung meiner Arbeit habe ich diesem Schreiben beigelegt.\newline
+
+Den wesentlichen Beitrag meiner Arbeit zur Erweiterung des Stands der Forschung in der Informatik fasse ich hiermit ganz kurz zusammen: \newline
+
+\hfill\begin{minipage}{\dimexpr\textwidth-1cm}
+\textit{\mycontribution}
+\end{minipage}
+\newline\newline
+
+Wenn Sie Interesse und Zeit für ein Gespräch mit mir haben, nennen Sie mir bitte mit beiliegendem Antwortschreiben einen möglichen Termin. Sollte ein Gespräch in nächster Zeit nicht möglich sein oder sollte Ihnen die schriftliche Zusammenfassung der Arbeit zunächst genügen, würde ich mich sehr freuen, wenn Sie mir dies mitteilen würden.
+\newline
+
+Mit freundlichem Gruß
+\newline\newline
+\myname \newline
+
+\ul{Anlagen:}\\
+Vordruck Rückantwort\\
+Zusammenfassung der Arbeit
+
+\end{textblock*}
+
+
+%%%%% Begin of Rückantwort
+\phantom{a}\pagebreak
+
+\begin{textblock*}{\w}(\lr,2.41cm) % Absender
+#3
+\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,5.4cm) % Empfänger
+\myinstitute\\
+\myname\\
+Campus \mycampus, \mybuilding, Raum \myroom\\
+% #3
+\end{textblock*}
+
+\begin{textblock*}{3cm}(5mm,105mm)$\overline{\phantom{awa}}$\end{textblock*}
+\begin{textblock*}{3cm}(5mm,210mm)$\overline{\phantom{awa}}$\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,7.6cm) % Ort, Datum
+\begin{flushright}
+Karlsruhe, \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\end{flushright}
+\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,9.74cm) % Text
+\textbf{Rückantwort – Gespräch über Promotionsthema}
+\newline
+
+\begin{table}[H]
+ \flushleft
+ \begin{tabularx}{\textwidth}{r X}
+    Thema: & \textbf{``\mytitleEN''} \\[3pt]
+           & \textbf{(``\mytitleDE'')} \\
+           & \\
+           & \\
+    \Large \Square & Bitte um Gespräch\\[3pt]
+           &  Terminvorschlag:\\
+           & \\
+           & \\
+    \Large \Square & Meinerseits besteht zurzeit kein Gesprächswunsch\\
+           & \\
+           & \\
+    \Large \Square & Bitte um Rücksprache\\[3pt]
+           &  Telefon:\\
+           & \\
+           & \\
+    \Large \Square & Sonstige Mitteilung:\\
+ \end{tabularx}
+\end{table}
+
+\vspace{5cm}
+
+Mit freundlichem Gruß
+
+\end{textblock*}
+
+\phantom{a}\pagebreak
+
+\pagestyle{empty}
+\setlength{\parindent}{15pt}
+\mysummary
+\setlength{\parindent}{0cm}
+
+\phantom{a}\pagebreak
+}
+
+\newcommand{\bestaetigung}[1]{
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\begin{textblock*}{3cm}(5mm,105mm)$\overline{\phantom{awa}}$\end{textblock*}
+\begin{textblock*}{3cm}(5mm,210mm)$\overline{\phantom{awa}}$\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,3.6cm) % Ort, Datum
+\begin{flushright}
+Karlsruhe, \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
+\end{flushright}
+\end{textblock*}
+
+\begin{textblock*}{\w}(\lr,6.74cm) % Text
+\textbf{Bestätigung}
+\newline\newline\newline
+
+
+\mysex \ \myname \ hat seine Dissertation mit dem Thema: \\\\``\mytitleEN'' \\[3pt] (``\mytitleDE'') \\\\
+am \underline{\phantom{dd.mm.YYYY}\hspace{1cm}} mit mir besprochen.
+
+\vspace{2cm}
+
+\underline{\hspace{5cm}} \\\\
+#1
+
+\end{textblock*}
+
+\phantom{a}\pagebreak
+
+}
+
+
+\begin{document}
+
+%% Uncomment this if you want to get summary only
+% \pagestyle{empty}
+% \mysummary
+% \newcommand{\profadddress}[3]{}
+
+%% Generate ``Anschreiben'' or ``Bestätigung''
+% Use this if you want to get ``Anschreiben''
+\newcommand{\profadddress}[3]{\anschreiben{#1}{#2}{#3}}
+% Use this if you want to get ``Bestätigung''
+% \newcommand{\profadddress}[3]{\bestaetigung{#3}}
+
+
+\include{latex_adressen_professorenrunde}
+
+\end{document}

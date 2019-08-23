@@ -1,0 +1,34 @@
+\newcommand{\mysex}{\#\#Herr\#\#} % Herr/Frau
+\newcommand{\myname}{\#\#Mein Name\#\#}
+\newcommand{\myinstitute}{Karlsruher Institut für Technologie (KIT)\\\#\#Institutsname\#\#}
+\newcommand{\myinstituteshort}{KIT \#\#Inst. Kürzel\#\#}
+\newcommand{\mycampus}{\#\#Süd/Nord\#\#}
+\newcommand{\mybuilding}{Geb. \#\#Building Nr.\#\#}
+\newcommand{\myroom}{\#\#My room\#\#}
+\newcommand{\mytitleEN}{\#\#Please read README.md-file first!\#\#}
+\newcommand{\mytitleDE}{\#\#Bitte liest zuerst README.md-Datei!\#\#}
+
+\newcommand{\mysemester}{\#\#Prüfungssemester\#\#}
+\newcommand{\mysupervisior}{\#\#My Supervisor\#\#}
+\newcommand{\mycontribution}{Hier maximal drei Sätze einfügen und den wissenschaftlichen Beitrag der Arbeit kurz und prägnant formulieren. Sie werden innerhalb Ihrer Promotionsgespräche und auch später in der Promotionsprüfung immer wieder gefordert sein, die Essenz Ihrer Arbeit klar und deutlich und gleichzeitig in knapper Form darstellen zu können. Haben Sie eine Kernthese? Was wollen Sie zeigen/beweisen? Wie/wodurch entwickeln Sie die Informatik weiter?
+}
+
+\newcommand{\mysummary}{
+\vspace{1mm}\textit{Zusammenfassung der Arbeit}
+\newline\newline
+\textbf{\mytitleEN \\ (\mytitleDE)}.
+\newline\newline
+
+%% START of your abstract
+Meine Zusammenfassung kommt hier. So kann ich auch Zitieren und die Literatur aus \textit{my\_articles.bib}-Datei hinzufügen \cite{stogl2019}.
+
+%% END of your abstract
+
+\hrulefill
+\footnotesize
+\renewcommand{\section}[2]{} %Remove Bibliography caption
+\setlength{\bibsep}{4pt}
+\bibliographystyle{plainnat}
+\bibliography{my_articles}
+\normalsize
+}

@@ -1,0 +1,105 @@
+[General]
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=true
+kile_livePreviewTool=LivePreview-PDFLaTeX
+lastDocument=prof_runde_serienbrief.tex
+
+[document-settings,item:latex_adressen_professorenrunde.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:my_articles.bib]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=BibTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=BibTex
+Mode Set By User=false
+
+[document-settings,item:prof.rundeserienbrief.kilepr]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
+[document-settings,item:prof_runde_serienbrief.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:zusammenfassung_der_arbeit.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[item:latex_adressen_professorenrunde.tex]
+open=true
+order=3
+
+[item:my_articles.bib]
+open=true
+order=1
+
+[item:prof.rundeserienbrief.kilepr]
+open=true
+order=0
+
+[item:prof_runde_serienbrief.tex]
+open=true
+order=2
+
+[item:zusammenfassung_der_arbeit.tex]
+open=true
+order=4
+
+[view-settings,view=0,item:latex_adressen_professorenrunde.tex]
+CursorColumn=271
+CursorLine=1
+JumpList=
+TextFolding=[]
+ViMarks=.,1,270,[,1,270,],1,270
+
+[view-settings,view=0,item:my_articles.bib]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:prof.rundeserienbrief.kilepr]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:prof_runde_serienbrief.tex]
+CursorColumn=11
+CursorLine=10
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:zusammenfassung_der_arbeit.tex]
+CursorColumn=35
+CursorLine=18
+JumpList=
+TextFolding=[]
+ViMarks=.,21,24,[,21,3,],21,24

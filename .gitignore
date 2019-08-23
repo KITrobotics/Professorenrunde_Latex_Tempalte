@@ -1,0 +1,48 @@
+#Project specific
+Logos/kitlogo_en_cmyk.png
+Logos/KITlogo_Frabe_english.png
+
+#Backup files
+*.bak
+*.swp
+
+#Kdevelop project file
+*.kdev4
+
+# Kate backup file
+*.backup
+*.kate-swp
+*~
+*~[0-9]
+
+# Latex output files
+*.aux
+*.blg
+*.bbl
+*.log
+*.out
+*.lot
+*.lof
+*.loa
+*.lol
+*.toc
+*.tdo
+*.nlo
+
+#*.pdf
+
+# Freecad backup files
+*.fcstd1
+
+# Eclipse project files
+.settings/
+.*project*
+
+# PyCharm temp files
+.idea/
+
+cmake/
+
+.directory
+
+*synctex.gz
